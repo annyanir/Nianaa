@@ -1,47 +1,84 @@
-# Astro Starter Kit: Minimal
+# Nianaa | nianaa.com
+## Summaries
+Nianaa is a web platform for developing skills, learning languages, achieving financial goals, and providing career advice. Nianaa promises a better future to everyone. We preserve the future. 
 
-```sh
-npm create astro@latest -- --template minimal
-```
+## Target Audience
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+The target audience is the individual who will use Nianaa in their daily life. Categories of the audience depend on their ages and their choices on the digital platform. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### First Phase (2023-2024)
 
-## 🚀 Project Structure
+Age: 25-34
 
-Inside of your Astro project, you'll see the following folders and files:
+The individual who is seeking information for career development. The individual who is willing to learn new things for his/her career purpose. 
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Second Phase (2024-2025)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Age: 18-24
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Undergraduate and graduate students who want to learn more and explore their surroundings about knowledge and well-being.
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Third Phase (2026)
 
-## 🧞 Commands
+Age: 14-18 
 
-All commands are run from the root of the project, from a terminal:
+Secondary Student who is eager to learn. 
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Fourth Phase (2027)
 
-## 👀 Want to learn more?
+Students of Medical & Engineering. 
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Competitors
+
+Competitors are those who are now competing in the same niche that Nianaa wants to explore and will provide services. Future competitors who have not been created yet will be omitted for a brief time. 
+
+### Primary Competitors
+
+None
+
+### Secondary Competitors
+
+It likely will be created soon. 
+
+### Tertiary Competitors
+
+Learning websites, and some government projects (i.e., 10 Minutes School, Courstika, Google Learning, Duolingo, Sololearn, Khan Academy)
+
+## Project details
+
+Project details will be meant by how we organize Nianaa as a better platform.
+
+### Layout
+
+The layout will be adaptive, flexible, and responsive. The background will be eye-protective. 
+
+### Framework
+
+Astro will be used as a framework though it is completely new today for its flexibility, hydration, and all-in-all support features. Other features and libraries are also included in it. 
+
+### Project Structure
+
+All necessary pages will be written first. Blogs will be the first related page, and then skills and the courses will be added. Soon, more will be added to the structure with subdirectories, and for different languages, different domains will be added. This project will first continue with English specific.
+
+### Services
+
+Some services will be added as below: -
+PWA, Desktop App, Apple App, Mobile App, Offline Availability, Multilevel Access Permission, and Multilevel Authentication for most of the services.  
+
+## Goals & Other Specifications
+
+### Goals
+
+Our goal is to provide the best learning accessibility features to students and individuals. 
+
+### Future
+
+We preserve the future. As we develop the platform to help and go through achieving the future. 
+
+### TBN
+
+Nianaa will be part of World Gardenia as a learning project. 
+
+## Conclusion
+
+Nianaa as a learning platform will help individuals to achieve the future they desire. 
