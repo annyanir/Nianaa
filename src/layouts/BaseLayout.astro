@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+const { author, pageTitle, pageDescription } = Astro.props;
+---
+
+<html lang="en">
+    <head>
+        <!-- 
+        META DATA for Website Basic 
+    -->
+        <meta charset="utf-8" />
+        <link rel="icon" href="favicon.svg" type="image/svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content={author} />
+        <meta name="description" content={pageDescription} />
+
+        <!--
+        META DATA for Facebook. Open Graph Protocol.
+    -->
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nianaa.com" />
+        <meta property="og:image" content="/logo.png" />
+        <meta property="og:image:alt" content="Nianaa's Logo" />
+        <meta property="og:description" content={pageDescription} />
+
+        <!-- 
+       META DATA for Twitter
+    -->
+        <meta property="twitter:card" content="website" />
+        <meta property="twitter:title" content={pageTitle} />
+        <meta property="twitter:description" content={pageDescription} />
+        <meta property="twitter:image" content="/logo.png" />
+        <meta property="twitter:image:alt" content="Nianaa's Logo" />
+
+        <!--
+            Websites Icons & META Links
+    -->
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="image/png" />
+		<link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="manifest" href="/manifest.json" />
+        <title>{pageTitle}</title>
+    </head>
+    <body>
+        <Header />
+        <slot />
+        <Footer />
+    </body>
+</html>

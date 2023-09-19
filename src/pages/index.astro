@@ -1,16 +1,19 @@
 ---
-
+import MainPageLayout from "../layouts/MainPageLayout.astro";
+const author = "Annya Nir";
+const pageDescription =
+    "Nianaa is a comprehensive educational platform that offers guidance on personal development, education, finance, healthcare, and career advancement. Our website offers unparalleled support to help individuals attain their aspirations and reach new levels of success.";
+const pageTitle = "Nianaa - Previse the Future";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainPageLayout
+    author={author}
+    pageTitle={pageTitle}
+    pageDescription={pageDescription}
+>
+    <h1>Welcome to Nianaa.</h1>
+    <p>
+        {pageDescription}
+    </p>
+    <h2>Hi,  this is from Niana.</h2>
+</MainPageLayout>

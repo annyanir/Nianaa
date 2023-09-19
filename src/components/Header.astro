@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+import NianaaLogo from "../assets/logos/Nianaa Logo.svg";
+import HeaderNav from "./header/HeaderNav.astro";
+import HeaderProfile from "./header/HeaderProfile.astro";
+---
+
+<header class="pd-bd">
+    <div class="site-details">
+        <a href="/">
+            <Image
+            src={NianaaLogo}
+            alt="Nianaa Logo"
+            height={75}
+            style={"box-shadow:inset 0px 0px 20px 4px pink; padding: 5px; border-radius:50px"}
+        />
+        </a>
+        <div class="site-info">
+            <h1>Nianaa</h1>
+            <p>Previse the Future</p>
+        </div>
+    </div>
+    <HeaderNav/>
+
+    <!--
+Future Services
+
+
+    <HeaderProfile/>
+
+     -->
+   
+</header>
+
+
