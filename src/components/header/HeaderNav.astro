@@ -1,0 +1,109 @@
+---
+
+---
+<nav class="header-nav" id="myNav">
+    <a href="/blog">Blog</a>
+    <a href="/course">Course</a>
+    <a href="/skill">Skill</a>
+    <a href="/career">Career</a>
+</nav>
+<div class="navButton"
+>
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+</div>
+
+
+<style>
+    .expand{display: unset;}
+    
+/* HEADER NAV DESIGN */
+.header-nav{
+    display: flex;
+}
+.header-nav>a{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+    font-size: large;
+    font-weight: bold;
+}
+.header-nav>a:hover{
+    background-color: var(--hoverBG);
+}
+.navButton{
+    display: none;
+}
+.line{
+    background-color: #000000;
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 5px 3px;
+}
+
+
+/* Later Use 
+
+
+@media screen and (max-width:560px) {
+
+    .navButton{
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 70px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 2px brown;
+
+    }
+    .header-nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 75px;
+        right: 90px;
+        border-radius: 5px;
+        background-color: #4611d8d0;
+    }    
+    .header-nav>a {        
+        color: white;
+    }
+    .header-nav>a:hover{
+        background-color: white;
+        color: #000000;
+    }
+}
+
+
+
+*/
+
+</style>
+
+<!--
+For later use...
+
+
+
+<script>
+    function showNav() {
+        const element = document.getElementById("myNav");
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+    }
+</script>
+
+
+<script>
+    document.querySelector('.navButton').addEventListener('click', () => {
+      document.querySelector('.header-nav').classList.toggle('expanded');
+    });
+  </script>
+
+
+ -->
