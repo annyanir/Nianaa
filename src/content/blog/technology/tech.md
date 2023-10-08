@@ -1,10 +1,10 @@
 ---
-layout: ../../layouts/BlogPostLayout.astro
-pageTitle: 'Nianaa Learning Blog'
+layout: ../../../layouts/BlogPostLayout.astro
+pageTitle: 'Technology Blogs'
 pageDescription: 'Welcome to Nianaa. A learning platform.'
 author: 'Annya Nir'
 ---
-# New way of learning. 
+## A Technology Blog. 
 
 ## With  the help of joy. 
 Hi, this is a new blog. 

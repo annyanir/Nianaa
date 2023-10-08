@@ -1,4 +1,5 @@
 ---
+import BlogNav from "../components/layouts/blog/BlogNav.astro";
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
@@ -7,11 +8,12 @@ const { frontmatter } = Astro.props;
     author={frontmatter.author}
     pageTitle={frontmatter.pageTitle}
     pageDescription={frontmatter.pageDescription}
-><nav></nav>
+>
+<BlogNav/>
     <main>
+        <h1>{frontmatter.pageTitle}</h1>
+        <p>Written by {frontmatter.author}</p>
         <article>
-            <h1>{frontmatter.pageTitle}</h1>
-            <p>Written by {frontmatter.author}</p>
             <slot />
         </article>
         <section></section>
