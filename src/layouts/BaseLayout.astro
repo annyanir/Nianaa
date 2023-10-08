@@ -44,6 +44,10 @@ const { author, pageTitle, pageDescription } = Astro.props;
         <title>{pageTitle}</title>
     </head>
     <body>
+        <nav>
+            <a href="\demo\">Home</a>
+            <a href="\demo\log"></a>
+        </nav>
         <Header />
         <slot />
         <Footer />
