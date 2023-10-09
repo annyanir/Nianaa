@@ -1,0 +1,12 @@
+---
+import BlogNav from "../../../components/layouts/blog/BlogNav.astro";
+import MainPageLayout from "../../../layouts/MainPageLayout.astro";
+const author = "Annya Nir";
+const pageTitle = "Technology Blogs";
+const pageDescription = "This page contains blogs from Ninaa."
+---
+
+<MainPageLayout author={author} pageTitle={pageTitle} pageDescription={pageDescription}>
+  <BlogNav/>
+  
+</MainPageLayout>
